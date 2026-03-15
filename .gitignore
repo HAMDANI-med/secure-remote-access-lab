@@ -1,0 +1,31 @@
+# Private keys — NEVER commit these
+*.key
+*.pem
+
+# PKI directory (contains private keys)
+pki/
+
+# easy-rsa vars file may contain sensitive defaults
+vars
+
+# OpenVPN credentials
+*.pass
+auth.txt
+credentials.txt
+
+# Certificates with embedded keys
+*.p12
+*.pfx
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
